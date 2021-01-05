@@ -1,9 +1,28 @@
-# SVM
-Training projects for SVMs (classification and regression)
+# Support Vector Machine (SVM) - Learning Projects
 
-Solving the exercises 9 and 10 in Aurélion Géron's book named "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition". 
+This repository includes two SVM projects, one project for SVC (classification) and one project for SVR (regression). Both projects are done using Jupyter Notebook.
 
-The tasks are the following: 
+## Project 1: Housing Prices - Support Vector Regression (SVR)
 
-1. Train an SVM classifier on the MNIST dataset. Since SVM classifiers are binary classifiers, you will need to use one-versus-the-rest to classify all 10 digits. You may want to tune the hyperparameters using small validation sets to speed up the process. What accuracy can you reach?
-2. Train an SVM regressor on the California housing dataset.
+Using SVR to predict the median house value per neighbourhood and comparing the results to a regular linear regression.
+
+The project included:
+- Preprocessing 
+- Trained SVR with RBF and Linear kernels
+- Trained a standard linear regression model to compare results
+- Feature engineering
+- Tuned hyperparameters of SVR model
+- Evaluation
+
+## Project 2: MNIST - Support Vector Classification (SVC)
+
+This image classification project focuses on trying to correctly classify images from the MNIST dataset (a dataset of handwritten numbers from 0 to 9).
+
+The project included:
+- Trained SVC with Linear, polynomial and RBF kernels
+- Data Augmentation
+- Tuned hyperparameters
+- Evaluation
+
+## Both projects can be viewed in their entireties, including comments and code, at: https://nbviewer.jupyter.org/github/Kayaae/SVM/tree/master/
+
